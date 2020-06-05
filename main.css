@@ -1,0 +1,65 @@
+.bodyStyle{
+    font-family: sans-serif;
+    background-color: rgb(250, 250, 228);
+}
+.bodyContent{
+    font-family: sans-serif;
+    background-color: rgb(250, 250, 228);
+}
+#header{
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+#header ul{
+
+}
+
+#header li{
+    font-size: 1.5em;
+    display:inline;
+    padding: 1em;
+}
+
+#header li:hover{
+    background-color: rgb(42, 93, 233);
+}
+
+#header a{
+    color:white;
+    text-decoration: none;
+}
+
+#footer{    text-align: center;
+    padding: .1em;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+
+}
+#contactContent{
+    padding: 3em;
+    position: fixed;
+    left:20%;
+    font-size: 1.3em;
+}
+#contactAddress ul{
+    position: fixed;
+    bottom: 15%;
+    right:10%;
+    list-style: none;
+    font-size: 1.3em;
+}
+#aboutContent {
+    padding: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.4em;
+    word-spacing: .1em;    
+}
+#mainContent {
+    padding: 2.5em;
+    font-size: 4em;
+    text-align: center;
+}
